@@ -1,0 +1,5 @@
+{
+  "name": "Daily Flow",
+  "description": "A responsive daily task manager with date-based scheduling, real-time updates, and performance analytics.",
+  "requestFramePermissions": []
+}
