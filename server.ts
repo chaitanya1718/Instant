@@ -9,7 +9,7 @@ import path from "path";
 import { createServer as createViteServer } from "vite";
 
 mongoose.set("bufferCommands", false);
-
+console.log("server fetched");
 const JWT_SECRET = process.env.JWT_SECRET || "daily-flow-secret-key-123";
 const MONGODB_URI = process.env.MONGODB_URI;
 const PORT = Number(process.env.PORT || 3000);
